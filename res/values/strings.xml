@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MosquitoDetectorActivity!</string>
+    <string name="app_name">Mosquito Detector</string>
+    <string name="an_actual_measurement">an actual measurement</string>
+    <string name="a_reference">a reference</string>
+    <string name="a_species_name_1">Aedes aegypti</string>
+    <string name="a_species_name_2">Aedes albopictus</string>
+    <string name="a_species_name_3">Anopheles stephensi</string>
+    <string name="a_species_name_4">Culex pipiens molestus</string>
+    <string name="is_an_invalid_number">is an invalid number</string>
+</resources>

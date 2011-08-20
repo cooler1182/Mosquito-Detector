@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/root"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal">
+	<LinearLayout android:id="@+id/left_title" android:orientation="vertical"
+		android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginRight="1dp" android:layout_weight="1">
+		<TextView android:layout_height="wrap_content" android:text="@string/an_actual_measurement" android:background="@color/title" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_marginBottom="1dp" android:layout_width="fill_parent"></TextView>
+		<ScrollView android:id="@+id/left_scroll_view"
+			android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+			<TableLayout android:id="@+id/left_table_layout"
+				android:layout_height="wrap_content" android:layout_width="fill_parent">
+				<TableRow android:id="@+id/left_row1" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="f"     android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="power" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="f"     android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="power" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="f"     android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="power" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="f"     android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="power" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row2" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row3" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row4" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row5" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row6" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row7" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row8" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_25" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_26" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_27" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_27" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_28" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row9" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_29" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_29" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row10" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row11" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_37" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_37" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row12" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_41" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_41" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_42" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_42" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_43" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_43" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row13" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_45" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_45" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_46" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_46" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_47" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_47" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_48" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_48" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+				<TableRow android:id="@+id/left_row14" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+					<TextView     android:id="@+id/freq_49" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_49" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_50" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_50" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_51" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_51" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+					<TextView     android:id="@+id/freq_52" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/f" android:layout_weight="1" android:gravity="center"></TextView>
+					<TextView android:id="@+id/strength_52" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@color/power" android:layout_weight="1" android:gravity="center" android:layout_marginRight="1dp"></TextView>
+				</TableRow>
+
+
+			</TableLayout>
+
+
+		</ScrollView>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/right_part"
+		android:layout_width="wrap_content" android:orientation="vertical"
+		android:layout_height="wrap_content">
+		<TextView android:id="@+id/right_title" android:layout_height="wrap_content" android:text="@string/a_reference" android:background="@color/title" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_marginBottom="1dp" android:layout_width="fill_parent"></TextView>
+		<ScrollView android:id="@+id/right_scroll_view"
+			android:layout_height="wrap_content" android:layout_width="wrap_content">
+			<TableLayout android:id="@+id/right_table_layout"
+				android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<TableRow android:id="@+id/row1" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:background="@color/reference" android:layout_marginBottom="1dp">
+					<TextView android:id="@+id/species1_name"
+						android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_species_name_1" android:paddingLeft="2dp" android:layout_gravity="center_vertical"></TextView>
+					<TextView android:id="@+id/species1_wingbeat_frequency"
+						android:layout_height="wrap_content" android:text="9999" android:layout_width="40dp" android:layout_gravity="right|center_vertical"></TextView>
+					<TextView android:layout_height="wrap_content" android:text="Hz" android:layout_width="wrap_content" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_gravity="center"></TextView>
+					<ImageView
+						android:id="@+id/species1_image" android:src="@drawable/aedes_aegypti" android:layout_height="50dp" android:layout_width="50dp" android:layout_margin="1dp"></ImageView>
+				</TableRow>
+				<TableRow android:id="@+id/row2" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:background="@color/reference">
+					<TextView android:id="@+id/species2_name"
+						android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_species_name_2" android:paddingLeft="2dp" android:layout_gravity="center_vertical"></TextView>
+					<TextView android:id="@+id/species2_wingbeat_frequency"
+						android:layout_height="wrap_content" android:text="9999" android:layout_gravity="right|center_vertical" android:layout_width="40dp"></TextView>
+					<TextView android:layout_height="wrap_content" android:text="Hz" android:layout_width="wrap_content" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_gravity="center"></TextView>
+					<ImageView android:id="@+id/species2_image" android:src="@drawable/aedes_albopictus" android:layout_height="50dp" android:layout_width="50dp" android:layout_margin="1dp"></ImageView>
+				</TableRow>
+				<TableRow android:id="@+id/row3" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:background="@color/reference">
+					<TextView android:id="@+id/species3_name"
+						android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_species_name_3" android:paddingLeft="2dp" android:layout_gravity="center_vertical"></TextView>
+					<TextView android:id="@+id/species3_wingbeat_frequency"
+						android:layout_height="wrap_content" android:text="9999" android:layout_gravity="right|center_vertical" android:layout_width="40dp"></TextView>
+					<TextView android:layout_height="wrap_content" android:text="Hz" android:layout_width="wrap_content" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_gravity="center"></TextView>
+					<ImageView android:id="@+id/species3_image" android:src="@drawable/anopheles_stephensi" android:layout_height="50dp" android:layout_width="50dp" android:layout_margin="1dp"></ImageView>
+				</TableRow>
+				<TableRow android:id="@+id/row4" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:background="@color/reference">
+					<TextView android:id="@+id/species4_name"
+						android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_species_name_4" android:paddingLeft="2dp" android:layout_gravity="center_vertical"></TextView>
+					<TextView android:id="@+id/species4_wingbeat_frequency"
+						android:layout_height="wrap_content" android:text="9999" android:layout_gravity="right|center_vertical" android:layout_width="40dp"></TextView>
+					<TextView android:layout_height="wrap_content" android:text="Hz" android:layout_width="wrap_content" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_gravity="center"></TextView>
+					<ImageView android:id="@+id/species4_image" android:src="@drawable/culex_pipiens_molestus" android:layout_height="50dp" android:layout_width="50dp" android:layout_margin="1dp"></ImageView>
+				</TableRow>
+				<TableRow android:id="@+id/row5" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/species4_name"
+						android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_species_name_4"></TextView>
+				</TableRow>
+			</TableLayout>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>

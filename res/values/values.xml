@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="wingbeat_frequency">
+    <item>466</item>
+    <item>462</item>
+    <item>423</item>
+    <item>370</item>
+    </integer-array>
+</resources>

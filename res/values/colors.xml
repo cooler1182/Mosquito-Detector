@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title">#5B6F62</color>
+    <color name="reference">#6A8200</color>
+    <color name="f">#D0F08E</color>
+    <color name="power">#6A8200</color>
+    <color name="f_attention">#D0D07E</color>
+    <color name="power_warning">#B66F62</color>
+</resources>
